@@ -1,6 +1,6 @@
-#CMS Demo for Android
+# CMS Demo for Android
 
-#####A repository showing off basic CMS capability with KudanAR.
+##### A repository showing off basic CMS capability with KudanAR.
 
 *N.B. This project was tested to work with Android Studio 2.0*
 
@@ -22,7 +22,7 @@ In order for this sample project to work you will need to:
 6. Alternatively you can test the app with content from Kudan's server, just open `CMSContentManagement.java` and change the boolean value of `useOwnServer` (line `17`) to `false`.
 7. The app looks for `test.json` on the server as to where it should find the rest of its data. You can change this to your hearts content. Details on `test.json` are below.
 
-##JSON Details
+## JSON Details
 
 **test.json**  
 
