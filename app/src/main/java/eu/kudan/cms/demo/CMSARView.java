@@ -47,6 +47,7 @@ public class CMSARView extends ARActivity implements ARImageTrackableListener {
     // Adds Trackables to ARImageTracker
     private void setupTrackables() {
         ARImageTracker tracker = ARImageTracker.getInstance();
+        tracker.initialise();
         for (CMSTrackable tempTrackable : trackables) {
 
             ARTrackableSet trackableSet = new ARTrackableSet();
